@@ -93,7 +93,7 @@ def renew(sess_id, session, password, order_id) -> bool:
     }
     session.post(url, headers=headers, data=data)
     time.sleep(5)
-    return True
+    return True 
 
 
 def check(sess_id, session):
